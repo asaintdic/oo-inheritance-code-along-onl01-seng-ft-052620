@@ -1,4 +1,4 @@
-class Vehicleclass Car 
+class Vehicle 
   
   attr_accessor :wheel_size, :wheel_number
    
@@ -11,6 +11,9 @@ class Vehicleclass Car
       "vrrrrrrrooom!"
     end
 
+    def fill_up_tank
+      "filling up!"
+    end
   
   
 
